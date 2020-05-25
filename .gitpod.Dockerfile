@@ -1,7 +1,7 @@
 FROM gitpod/workspace-full-vnc
                     
 USER gitpod
-
+ARG DEBIAN_FRONTEND=noninteractive
 # Install custom tools, runtime, etc. using apt-get
 # For example, the command below would install "bastet" - a command line tetris clone:
 #
